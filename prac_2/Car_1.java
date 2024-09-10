@@ -3,17 +3,18 @@ public class Car_1 {
     String license;
     String color;
     int year;
+
     public Car_1(String model, String license, String color, int year) {
         this.model = model;
         this.license = license;
         this.color = color;
         this.year = year;
     };
-    public Car_1() {};
     public Car_1(String model, String color) {
         this.model = model;
         this.color = color;
     };
+    public Car_1() {};
 
     public String getModel() {
         return model;
@@ -39,5 +40,9 @@ public class Car_1 {
     }
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public int carAge() {
+        return (int) year - 2024;
     }
 }
