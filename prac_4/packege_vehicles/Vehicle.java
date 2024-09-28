@@ -1,6 +1,7 @@
 package vehicles;
+//Абстрактный класс Vehicle
 public abstract class Vehicle {
-//Поле model и его методы доступа
+    //Поле model и его методы доступа
     private String model;
     public String getModel() {
         return model;
@@ -9,7 +10,7 @@ public abstract class Vehicle {
         this.model = model;
     }
 
-//Поле license и его методы доступа
+    //Поле license и его методы доступа
     private String license;
     public String getLicense() {
         return license;
@@ -18,7 +19,7 @@ public abstract class Vehicle {
         this.license = license;
     }
 
-//Поле color и его методы доступа
+    //Поле color и его методы доступа
     private String color;
     public String getColor() {
         return color;
@@ -27,7 +28,7 @@ public abstract class Vehicle {
         this.color = color;
     }
 
-//Поле year и его методы доступа
+    //Поле year и его методы доступа
     private String year;
     public String getYear() {
         return year;
@@ -36,7 +37,7 @@ public abstract class Vehicle {
         this.year = year;
     }
 
-//Поле ownerName и его методы доступа
+    //Поле ownerName и его методы доступа
     private String ownerName;
     public String getOwnerName() {
         return ownerName;
@@ -45,7 +46,7 @@ public abstract class Vehicle {
         this.ownerName = ownerName;
     }
 
-//Поле insuranceNumber и его методы доступа
+    //Поле insuranceNumber и его методы доступа
     private String insuranceNumber;
     public String getInsuranceNumber() {
         return insuranceNumber;
@@ -54,7 +55,7 @@ public abstract class Vehicle {
         this.insuranceNumber = insuranceNumber;
     }
 
-//Поле engineType и его методы доступа
+    //Поле engineType и его методы доступа
     protected String engineType;
     public String getEngineType() {
         return engineType;
@@ -63,14 +64,11 @@ public abstract class Vehicle {
         this.engineType = engineType;
     }
 
-//Поле vehicleType и его методы доступа
-    protected String vehicleType;
-    public String getVehicleType() {
-        return vehicleType;
-    }
-    public void setVehicleType(String vehicleType) {
-        this.vehicleType = vehicleType;
-    }
-//Конструктор
+    //Определение абстрактных методов
+    public abstract String getVehicleType();
+
+    public abstract void setVehicleType(String vehicleType);
+
+    //Конструктор
     public Vehicle() {}
 }
