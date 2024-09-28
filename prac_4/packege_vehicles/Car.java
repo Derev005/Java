@@ -1,6 +1,6 @@
 package vehicles;
 public class Car extends Vehicle {
-//Переопределение поля vehicleType для класса Car
+    //Переопределение поля vehicleType для класса Car
     protected String vehicleType = "Car";
     public String getVehicleType() {
         return vehicleType;
@@ -9,7 +9,7 @@ public class Car extends Vehicle {
         System.out.print("Changing the vehicleType of this object is not available\n");
     }
 
-//Метод tooString()
+    //Метод tooString()
     public void tooString() {
         System.out.print("Model: " + Car.this.getModel() + "\n");
         System.out.print("License: " + Car.this.getLicense() + "\n");
@@ -20,7 +20,7 @@ public class Car extends Vehicle {
         System.out.print("Engine Type: " + Car.this.getEngineType() + "\n");
         System.out.print("Vehicle Type: " + Car.this.getVehicleType() + "\n\n\n");
     }
-//Конструкторы
+    //Конструкторы
     public Car() {}
     public Car(String model,
                String license,
