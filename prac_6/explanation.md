@@ -1,5 +1,5 @@
 # [Задание 1](https://github.com/Derev005/Java/blob/main/prac_6/task.md)
-## [packagebikeproject](https://github.com/Derev005/Java/tree/main/prac_6/packege_bikeproject)
+## [package bikeproject](https://github.com/Derev005/Java/tree/main/prac_6/packege_bikeproject)
   - [BikeDriver.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/BikeDriver.java)
   - [Bike.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/Bike.java)
   - [BikeParts.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/BikeParts.java)
