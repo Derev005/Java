@@ -1,5 +1,5 @@
 # Проектирование интерфейсов в классах Java #
-Импортируйте файл bikeproject.zip в папку на вашем компьютере.
+Импортируйте файл [bikeproject.zip](https://github.com/Derev005/Java/blob/main/prac_6/%D0%9F%D0%BD%D0%AF%D0%94_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0_6.7z) в папку на вашем компьютере.
 ***
 ###### Ссылки ######
 [Интерфейсы](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html "Описание из документаии")  
