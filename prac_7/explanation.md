@@ -5,10 +5,11 @@
  - [Circle.java](https://github.com/Derev005/Java/blob/main/prac_7/task_1-2/Circle.java)
  - [Rectangle.java](https://github.com/Derev005/Java/blob/main/prac_7/task_1-2/Rectangle.java)
  - [GeometricObject.java](https://github.com/Derev005/Java/blob/main/prac_7/task_1-2/GeometricObject.java)
-
+## [task_3](https://github.com/Derev005/Java/blob/main/prac_7/task_3.md)
  - []()
  - []()
  - []()
+## [task_4](https://github.com/Derev005/Java/blob/main/prac_7/task_4.md)
  - []()
  - []()
  - []()
