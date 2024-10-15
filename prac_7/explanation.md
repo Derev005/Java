@@ -1,4 +1,8 @@
----
-какие-то проделки сатаны
-
----
+# [Задание 1/2](https://github.com/Derev005/Java/blob/main/prac_7/task_1-2.md)
+ - [BikeDriver.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/BikeDriver.java)
+ - [Bike.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/Bike.java)
+ - [BikeParts.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/BikeParts.java)
+ - [MountainBike.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/MountainBike.java)
+ - [MountainParts.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/MountainParts.java)
+ - [RoadBike.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/RoadBike.java)
+ - [RoadParts.java](https://github.com/Derev005/Java/blob/main/prac_6/packege_bikeproject/RoadParts.java)
