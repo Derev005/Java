@@ -1,17 +1,18 @@
 public class TestCircleRectangle {
     public static void main(String[] args) throws Triangle.IllegalArgumentException {
-        Circle circle = new Circle(1);
-        System.out.println("Круг " + circle.toString());
-        System.out.println("Радиус равен " + circle.getRadius());
-        System.out.println("Площадь равна " + circle.getArea());
-        System.out.println("Диаметр равен " + circle.getDiameter());
-
-        Rectangle rectangle = new Rectangle(2, 4);
-        System.out.println("\nПрямоугольник " + rectangle.toString());
-        System.out.println("Площадь равна " + rectangle.getArea());
-        System.out.println("Периметр равен " + rectangle.getPerimeter() + "\n");
-
-        Triangle triangle = new Triangle(1.0, 2.0, 2.0);
+        Triangle triangle = new Triangle();
+        triangle.cinTriangle();
         System.out.println(triangle.toString());
+
+        Circle circle1 = new Circle(0.5);
+        Circle circle2 = new Circle(1.0);
+        System.out.print("Поиск большего из circle1 и circle2: "); circle1.max(circle2);
+
+        Rectangle rectangle1 = new Rectangle(5.0, 4.0);
+        Rectangle rectangle2 = new Rectangle(6.0, 4.0);
+        System.out.print("Поиск большего из rectangle1 и rectangle2: "); rectangle1.max(rectangle2);
+
+        System.out.print("Поиск большего из circle1 и rectangle1: "); circle1.compareTo(rectangle1);
+        System.out.print("Поиск большего из rectangle2 и circle2: "); rectangle2.compareTo(circle2);
     }
 }
