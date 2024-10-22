@@ -8,4 +8,4 @@
 | [Prac 5](https://github.com/Derev005/Java/blob/main/prac_5/explanation.md) |
 | [Prac 6](https://github.com/Derev005/Java/blob/main/prac_6/explanation.md) |
 | [Prac 7](https://github.com/Derev005/Java/blob/main/prac_7/explanation.md) |
-| [Prac 8]() |
+| [Prac 8](https://github.com/Derev005/Java/blob/main/prac_8/explanation.md) |
