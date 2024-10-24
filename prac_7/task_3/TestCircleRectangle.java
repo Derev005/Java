@@ -4,8 +4,8 @@ public class TestCircleRectangle {
         triangle.cinTriangle();
         System.out.println(triangle.toString());
 
-        Circle circle1 = new Circle(0.5);
-        Circle circle2 = new Circle(1.0);
+        ComparableCircle circle1 = new ComparableCircle(0.5);
+        ComparableCircle circle2 = new ComparableCircle(1.0);
         System.out.print("Поиск большего из circle1 и circle2: "); circle1.max(circle2);
 
         Rectangle rectangle1 = new Rectangle(5.0, 4.0);
