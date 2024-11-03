@@ -9,3 +9,4 @@
 | [Prac 6](https://github.com/Derev005/Java/blob/main/prac_6/explanation.md) |
 | [Prac 7](https://github.com/Derev005/Java/blob/main/prac_7/explanation.md) |
 | [Prac 8](https://github.com/Derev005/Java/blob/main/prac_8/explanation.md) |
+| [Prac 9](https://github.com/Derev005/Java/blob/main/prac_9/explanation.md) |
